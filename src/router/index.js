@@ -21,6 +21,11 @@ const router = createRouter({
       name: "autores",
       component: AutorView,
     },
+    {
+      path: "/editoras",
+      name: "editoras",
+      component: AutorView,
+    },
   ],
 });
 
